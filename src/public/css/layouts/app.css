@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 20px 30px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+.logo img {
+    height: 36px;
+}
+
+.search-input {
+    width: 450px;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-input::placeholder {
+    padding-left: 20px;
+    font-size: 24px;
+    color: #000;
+    opacity: 1;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-link {
+    background: none;
+    border: none;
+    color: #fff;
+    font: inherit;
+    padding: 0;
+}
+
+.header-nav .btn-exhibit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #000;
+    text-decoration: none;
+}

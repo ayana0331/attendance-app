@@ -1,0 +1,68 @@
+body {
+    background-color: #F0EFF2;
+}
+
+.box {
+    max-width: 600px;
+    margin: 120px auto 0;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    text-align: center;
+    box-shadow: none;
+}
+
+.state {
+    display: inline-block;
+    padding: 9px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 60px;
+    background-color: #C8C8C8;
+    color: #696969;
+    margin-bottom: 30px;
+}
+
+.date {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.time {
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.btns button {
+    width: 220px;
+    height: 77px;
+    font-size: 32px;
+    padding: 10px 24px;
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.btns div {
+    font-size: 26px;
+    color: #000;
+}

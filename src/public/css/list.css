@@ -1,0 +1,116 @@
+body {
+    background-color: #F0EFF2;
+}
+
+.attendance-list {
+    width: 900px;
+    margin: 80px auto;
+}
+
+.page-title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    border-left: 8px solid #000;
+    margin-bottom: 50px;
+}
+
+.month-nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 0 25px;
+    margin-bottom: 50px;
+}
+
+.month-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #737373;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.month-link img {
+    width: 20px;
+    height: 15px;
+    opacity: 0.3;
+}
+
+.arrow-right {
+    transform: rotate(180deg);
+}
+
+.month-current {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.month-current img {
+    width: 25px;
+    height: 25px;
+}
+
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.attendance-table th,
+.attendance-table td {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #737373;
+}
+
+.attendance-table tr {
+    border-bottom: 2px solid #E1E1E1;
+}
+
+.attendance-table thead th {
+    border-bottom: 3px solid #E1E1E1;
+}
+
+.attendance-table tr:last-child {
+    border-bottom: none;
+}
+
+.attendance-table a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+.csv-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.btn-csv {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
